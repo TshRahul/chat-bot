@@ -1,0 +1,23 @@
+{"intents": [
+  {"tag":  "greetings",
+  "patterns":  ["hello", "hey", "hi", "good day", "Greetings", "what's up?"],
+  "responses": ["Hello!", "Hey!", "What can I do for you?"]},
+  {"tag":  "name",
+  "patterns":  ["what is your name?", "what should i call you"],
+  "responses": ["I am chat bot"]},
+  {"tag":  "symptoms-allergy",
+  "patterns":  ["continuous_sneezing", "shivering", "chills", "watering_from_eyes"],
+  "responses": ["These are the symptoms for Allergy"]},
+  {"tag":  "symptoms-aids",
+  "patterns":  ["patches_in_throat", "high_fever", "extra_marital_contacts", "muscle_wasting"],
+  "responses": ["These are the symptoms for AIDS"]},
+  {"tag":  "symptoms-common-cold",
+  "patterns":  ["chills", "continuous_sneezing", "fatigue", "headache"],
+  "responses": ["These are the symptoms for Common Cold"]},
+  {"tag":  "symptoms-dengue",
+  "patterns":  ["skin_rash", "chills", "joint_pain", "vomiting"],
+  "responses": ["These are the symptoms for Dengue"]},
+  {"tag":  "symptoms-migraine",
+  "patterns":  ["acidity", "indigestion", "blurred_and_distorted_vision", "headache"],
+  "responses": ["These are the symptoms for Migraine"]}
+]}
