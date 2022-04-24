@@ -2,8 +2,6 @@ import googlemaps
 import pandas as pd
 import time
 
-API_KEY = 'AIzaSyACNGaH8OThVoQyg0KQFVDIjpMe12oWV8M'
-
 gmaps = googlemaps.Client(key=API_KEY)
 
 places_result = gmaps.places_nearby(location='-33.8670522,151.1957362', radius=40000, open_now=False, type= 'medical')
@@ -28,7 +26,6 @@ print(places_result)
 # # places in the google developers
 #
 # # Use your own API key for making api request calls
-# API_KEY = 'AIzaSyACNGaH8OThVoQyg0KQFVDIjpMe12oWV8M'
 #
 # # Initialising the GooglePlaces constructor
 # google_places = GooglePlaces(API_KEY)
